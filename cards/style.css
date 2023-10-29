@@ -1,0 +1,89 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border box;
+}
+.img{
+	display:flex;
+    height:300px;
+    width:250px;
+    background-size: cover;
+	margin-top:1rem;
+    margin-bottom:1rem;
+	margin-left:10px;
+	border: 2px solid black;
+    border-radius: 10px;
+	overflow: hidden;
+    transition: all  0.8s;
+}
+
+.nav{
+	background-color: rgb(123, 24, 24);
+	color: burlywood;
+	display:flex;
+	justify-content: start;
+	align-items: center;
+	padding:4px;
+	
+}
+.nav img{
+	height:50px;
+	width:50px;
+	padding:2px 15px 2px 2px;
+}
+
+
+.card{
+    display:flex;
+	flex-wrap:wrap;
+	align-items: start;
+	justify-content: space-evenly;
+	padding: 20px 0px 15px;
+}
+
+.img:hover{
+	transition: 0.8s ease-out;
+	transform: translateY(20px);
+}	
+
+.data{
+	transform: translateY(70%);
+    transition: 0.8s ease-in-out;
+}
+
+.data h1{
+    color:black;
+    margin-left:10px;
+    font-size:30px;
+    text-shadow:1px 1px 1px black;
+    padding-top:60px;
+}
+
+
+.data p{
+    text-align:justify;
+    width:90%;
+    color:white;
+	margin:10px;
+    font-size:15px;
+}
+
+.img:hover> .data{
+    transform: translate(0%);
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6));
+}
+
+.img:hover> .data h1{
+	color: white;
+	text-decoration: underline;
+}
+   
+
+.container{
+	box-shadow: rgb(0,0,0.3) 3px 3px 3px 6px 0px inset;
+}
+
+
+
+
+
