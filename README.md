@@ -10,7 +10,7 @@ The "Interactive Hover Cards," is a mesmerizing showcase of HTML and CSS, demons
 3. PASSWORD GENERATOR:
 This creates a simple password generator using HTML, CSS, and JavaScript. It allows the user to specify password length and select character types (uppercase, lowercase, numbers, and symbols) to include in the password and a random password meeting the specified criteria is displayed in the input field.
 
-4.SHOPPING LIST:
+4. SHOPPING LIST:
 This simple shopping list web application allows users to add items to their list, view the list, and delete items when they are no longer needed. It features basic styling, built with HTML, CSS, and JavaScript.
 
 
